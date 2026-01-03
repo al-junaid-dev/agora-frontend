@@ -38,7 +38,9 @@ within the hyperlocal retail ecosystem.
             <li><Link to="/login" className="hover:text-indigo-300 transition">
               Login
             </Link></li>
-            <li><a href="#contact" className="hover:text-indigo-300 transition">Contact</a></li>
+            <li><Link to="/contact" className="hover:text-indigo-300 transition">
+              Contact
+             </Link></li>
           </ul>
         </div>
 
