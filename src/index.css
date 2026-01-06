@@ -12,3 +12,8 @@
 /*background-image: linear-gradient(139deg, #0F0C29, #302B63, #24243E, #FFFFFF1A );	/*dark mode gradient*/
 
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-image: linear-gradient(139deg, #0F0C29, #302B63, #24243E, #FFFFFF1A );
+  }
+}
