@@ -1,19 +1,16 @@
 @import "tailwindcss";
 :root {
-   background-image: url('/src/assets/wallpaper.jpg');
+  background-image: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);	/*light mode gradient*/
+/*background-image: linear-gradient(139deg, #0F0C29, #302B63, #24243E, #FFFFFF1A );	/*dark mode gradient*/
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  background-image: url('/src/assets/wallpaper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-color: black;
-
-/*background-image: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);	/*light mode gradient*/
-
-/*background-image: linear-gradient(139deg, #0F0C29, #302B63, #24243E, #FFFFFF1A );	/*dark mode gradient*/
-
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-image: linear-gradient(139deg, #0F0C29, #302B63, #24243E, #FFFFFF1A );
   }
 }
