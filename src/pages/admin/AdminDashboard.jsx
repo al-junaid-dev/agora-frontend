@@ -19,6 +19,7 @@ export default function AdminDashboard() {
     setProducts(products.filter(p => p.id !== id));
   };
 
+  
   return (
     <div className="p-8 text-white">
       <h2 className="text-3xl font-bold mb-6">Pending Products</h2>
