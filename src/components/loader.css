@@ -2,7 +2,7 @@
 .np-loader {
   position: fixed;
   inset: 0;
-  background: radial-gradient(circle at center, #070c18, #02040a);
+  /*background: radial-gradient(circle at center, #070c18, #02040a);*/
   display: flex;
   flex-direction: column;
   justify-content: center;
