@@ -13,6 +13,7 @@ export default function App() {
 
   if (loading) return <div className="fixed inset-0 bg-black/40 backdrop-blur-lg w-screen h-screen mx-auto my-auto flex items-center justify-center"><Loader /></div>;
 
+
   return <>
     <Navbar/>
     <AppRoutes/>
