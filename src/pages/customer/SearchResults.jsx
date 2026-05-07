@@ -139,7 +139,7 @@ export default function SearchResults() {
             <ProductCard key={`${product.id}-${product.store}`} product={product} />
           ))
         ) : (
-          <div><p className="font-bold text-[red]"> Sorry, No products found.</p>
+          <div className="bg-white/10 backdrop-blur-lg border-t border-white/20 text-white mt-24"><p className="font-bold text-[red]"> Sorry, No products found.</p>
 <p className="font-serif text-[cyan]">We'll add your desired products and update the list soon"</p>
 <p className="font-mono font-bold text-[green]"> Sorry for the inconveniences caused...</p></div>
         )}
