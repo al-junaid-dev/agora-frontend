@@ -141,7 +141,7 @@ export default function SearchResults() {
         ) : (
           <p className="font-bold text-red"> Sorry, No products found.</p>
 <p className="font-serif text-cyan">We'll add your desired products and update the list soon"</p>
-<p className="font-mono font-bold text-green> Sorry for the inconveniences caused...</p>
+<p className="font-mono font-bold text-green"> Sorry for the inconveniences caused...</p>
         )}
       </div>
 
