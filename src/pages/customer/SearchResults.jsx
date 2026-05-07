@@ -6,9 +6,6 @@ import { api } from "../../services/api";
 import Home from "./Home.jsx";
 
 export default function SearchResults() {
-
-
-
   
   const location = useLocation();
   const navigate = useNavigate();
